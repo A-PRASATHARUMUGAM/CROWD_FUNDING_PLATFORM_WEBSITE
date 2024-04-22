@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #ffffff;
+}
+div{
+text-align: center;
+}
+img{
+
+margin-top: 40px;
+width: 70vw;
+height: 90vh;
+}

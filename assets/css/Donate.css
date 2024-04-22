@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+:root{
+   /* background color  */
+   --bg-color-w:#ffffff;
+   --bg-color-b:#000000;
+   /* text color */
+   --text-color-b:#000000;
+   --text-color-w:#ffffff;
+   --text-color1:#cdb4db;
+   --text-color2:#ffc8dd;
+   --text-color3:#ffafcc;
+   --text-color4:#bde0fe;
+   --text-color5:#a2d2ff;
+   --text-color6:#616163;
+   --text-color6:#456990;
+   --text-color6:#703d57;
+   --text-color6:#131200;
+   --text-color6:#45062e;
+
+}
+
+
+body{
+background-color: #f1c9cd;
+
+
+
+
+   }
+   .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.300);
+
+  }
+  .navbar a{ 
+        margin: 0px 30px;
+        padding: 10px;
+        border-radius: 3px;
+        font-weight:bold;
+        color:#203760;
+
+       
+    
+  }
+  .navbar a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition: 0.5s;
+
+
+
+    }
+
+   .logo{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#203760;
+   
+ }
+
+
+   #boxhead{
+    height: 48px;
+ }
+
+  /*******************\
+  #section 1
+  \*******************/
+.Donate-title{
+margin-top: 35px;
+  text-align: center;
+  color:black;
+}
+  section{
+    margin-top: 20px;
+     display: flex;
+     flex-flow: wrap;
+     gap: 50px;
+    justify-content: center;
+    align-items: start;
+  }
+
+
+
+
+  /*******************\
+  #profile cards
+  \*******************/
+
+section{
+  margin-top: 40px;
+  display: flex;
+  justify-content:center;
+
+}
+.profile-card{
+  border: 2px solid black;
+  width:40vw;
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+
+
+}
+.profile-card__img{
+width:12vw;
+height:12vw;
+border-radius: 10px;
+margin-right: 10px;
+}
+.profile-card__desc--box{
+
+}
+.profile-card__title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 23px;
+  font-weight: bold;
+}
+.profile-card__desc{
+  margin-bottom: 23px;
+
+
+}
+.profile-card__amt{
+  margin-bottom: 23px;
+  font-weight: 200;
+  border: 1px solid red ;
+  padding: 2px;
+  width: 140px;
+  animation: animate 2s ease infinite;
+}
+
+
+@keyframes animate{
+0%,100%{
+    color: red;
+    font-weight: bold;
+    background-color: white;
+
+ }
+ 25%{
+  color: white;
+  font-weight: bold;
+  background-color: black;
+
+ }  
+ 60%{
+
+ }
+ 
+
+}
+
+.profile-card__button{
+ padding: 8px;
+ width: 10vw;
+ color: black;
+ border: none;
+ border-radius: 10px;
+ background-color: white;
+ font-weight: bold;
+
+}
+.profile-card__button:hover{
+  color:white;
+  background-color: black;
+  transition: 0.5s;
+
+}

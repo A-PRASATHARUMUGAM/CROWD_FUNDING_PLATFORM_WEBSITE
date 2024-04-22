@@ -1,0 +1,214 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+:root{
+   /* background color  */
+   --bg-color-w:#ffffff;
+   --bg-color-b:#000000;
+   /* text color */
+   --text-color-b:#000000;
+   --text-color-w:#ffffff;
+   --text-color1:#cdb4db;
+   --text-color2:#ffc8dd;
+   --text-color3:#ffafcc;
+   --text-color4:#bde0fe;
+   --text-color5:#a2d2ff;
+   --text-color6:#616163;
+   --text-color6:#456990;
+   --text-color6:#703d57;
+   --text-color6:#131200;
+   --text-color6:#45062e;
+
+}
+
+
+body{
+  background-color:#ffffff;
+
+
+   }
+   .header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      left: 0%;
+      right: 0%;
+      padding: 15px;
+      background-color: rgba(1, 1, 1, 0.1);
+      z-index: 1;
+
+    }
+    .navbar a{ 
+          margin: 0px 30px;
+           padding: 10px;
+          border-radius: 3px;
+          font-weight:bold;
+          color:#203760;
+  
+         
+      
+    }
+    .navbar a:hover{
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      transition: 0.5s;
+  
+
+  
+      }
+  
+     .logo{
+      position: absolute;
+      left: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      color:#203760;
+     
+   }
+  
+  
+     #boxhead{
+      height: 48px;
+   }
+
+/*background image */
+
+
+.bgimage{
+position: absolute;
+top: 15%;
+left: 55%;
+right: 0%;
+width: 500px;
+height: 500px;
+z-index: 0;
+}
+
+
+/* section 1  contact form ************************************************************************************** */
+
+section{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.form-box{
+   margin-top: 20px;
+   margin-left: 35px;
+  width: 600px;
+  border-radius: 20px;
+  text-align: center;
+   /* box-shadow: 17px 25px 10px  rgba(0, 0, 0,0.6); */
+ 
+}
+
+.form-title{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: black;
+   text-align: center;
+   
+  
+}
+.Email,.Firstname,.Mobileno,.Address{
+   margin: 13px;
+   padding: 20px;
+   width: 35vw;
+   height: 1px;
+   border: none;
+   background-color: rgba(0, 0, 0, 0.05);
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: medium;
+   border-radius: 3px;
+}
+
+.State,.City{
+ margin: 13px;
+ padding: 12px;
+ border: none;
+ width: 15vw;
+ font-size: medium;
+ border-radius: 5px;
+ background-color: rgba(0, 0, 0, 0.05);
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.City{
+margin-left: 48px;
+}
+.Cause{
+ margin: 13px;
+ border: none;
+ padding: 12px;
+ width: 35vw;
+ font-size: medium;
+ border-radius: 5px;
+ background-color: rgba(0, 0, 0, 0.05);
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.aboutwhatpbm{
+ margin: 13px;
+ margin-bottom: 20px;
+ border-radius: 3px;
+ border: none;
+ resize: none;
+ font-size: 15px;
+ background-color: white;
+ padding: 20px;
+ width: 35vw;
+ height: 100px;
+ background-color: rgba(0, 0, 0, 0.05);
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
+input[type="file"]{
+
+  display: none;
+}
+
+.uploadimg{
+  margin: 15px;
+  border: none;
+  padding: 12px;
+  font-size: medium;
+  border-radius: 5px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+.btn{
+   font-family: cursive;
+   padding: 10px;
+   border: none;
+   width: 35vw;
+   margin-left: 15px;
+   background-color:#017aee;
+   color: white;
+   font-weight: bold;
+   font-size: 14px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+
+ 
+}
+.btn:hover{
+    background-color:#75e6a3 ;
+    transition: 0.5s;
+    color: black;
+}
+

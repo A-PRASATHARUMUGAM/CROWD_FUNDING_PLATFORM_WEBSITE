@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+:root{
+   /* background color  */
+   --bg-color-w:#ffffff;
+   --bg-color-b:#000000;
+   /* text color */
+   --text-color-b:#000000;
+   --text-color-w:#ffffff;
+   --text-color1:#cdb4db;
+   --text-color2:#ffc8dd;
+   --text-color3:#ffafcc;
+   --text-color4:#bde0fe;
+   --text-color5:#a2d2ff;
+   --text-color6:#616163;
+   --text-color6:#456990;
+   --text-color6:#703d57;
+   --text-color6:#131200;
+   --text-color6:#45062e;
+
+}
+
+
+body{
+  background-image: url(../image/bgimage/c4.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+
+
+
+   }
+   .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.300);
+
+  }
+  .navbar a{ 
+        margin: 0px 30px;
+         padding: 10px;
+        border-radius: 3px;
+        font-weight:bold;
+        color:#203760;
+
+       
+    
+  }
+  .navbar a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    transition: 0.5s;
+
+
+
+    }
+
+   .logo{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#203760;
+   
+ }
+
+
+   #boxhead{
+    height: 48px;
+ }
+  /*******************\
+  #section 1
+  \*******************/
+
+  section{
+    margin-top: 20px;
+     display: flex;
+     flex-flow: wrap;
+     gap: 50px;
+    justify-content: center;
+    align-items: start;
+  }
+
+
+ /* section 1*********************************************** */
+
+
+
+ .section-title{
+  margin-top:50px;
+  text-align: center;
+  font-weight: bold;
+  color:#fff200;
+  text-transform: uppercase;
+
+  
+ }
+   /* remedies paragraph ******************************************** */
+
+   .transplant-container1{
+    margin: 0 20px 20px ;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255,0.8);
+    padding: 30px;
+    border-radius: 20px;
+    color: black;
+    font-weight: 500;
+   }

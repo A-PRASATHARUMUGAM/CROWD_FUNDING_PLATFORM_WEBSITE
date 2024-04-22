@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Cause.css" type="text/css">
+    <title>Cause</title>
+</head>
+<body>
+
+    <header class="header">
+        <p class="logo" >Crowd Funding</p>
+        <nav class="navbar">   
+         <a href="Index.html">Home</a>
+         <a href="Donate.html">Donate</a>
+         <a href="Cause.html">Cause</a>
+         <a href="Aboutus.html">About Us</a>
+        </nav>
+      </header>
+      <div id="boxhead"> 
+        
+      </div>
+      
+
+          <!-- section1 **************************************************************** -->
+<section>
+<div class="bgimage-box">
+
+  <img src="assets/image/bgimage/8605351.jpg" class="bgimage" alt="background image">
+
+
+</div>
+
+   
+  <form action="assets/php/cause1.php" title="contact" method="post" class="form-box">
+
+    <h2 class="form-title" >Contact Us  </h2>
+
+
+      <label for="firstname"></label>
+      <input type="text" name="firstname" class="Firstname" placeholder="First name" required>
+
+
+
+      <label for="email"></label>
+      <input type="email" name="email" class="Email" placeholder="Enter your email" required>
+
+
+
+      <label for="mobileno"></label>
+      <input type="tel" name="mobileno" class="Mobileno" placeholder="Enter moblie number" required>
+
+      <label for="address"></label>
+      <input type="text" name="address" class="Address" placeholder="Enter address" required>
+
+
+
+<div id="state-city-box">
+
+
+
+
+        <select name="state" class="State" required >
+
+                <option value="StateNothing">State</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Kerala ">Kerala</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Karnataka">Karnataka</option>
+
+                
+    
+         </select>
+
+        <select name="city" class="City"  required>
+    
+                <option value="CityNothing">City</option>
+                <option value="Villupuram">Villupuram</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Tiruchirappalli">Tiruchirappalli</option>
+                <option value="Kanniyakumari ">Kanniyakumari </option>
+
+    
+        </select>
+        <select name="cause" class="Cause"  required >
+    
+          <option value="Nothing">Cause</option>
+          <option value="Cancer">Cancer</option>
+          <option value="Transplant">Transplant</option>
+          <option value="Heart Disease">Heart Disease</option>
+          <option value="Brain Surgery">Brain Surgery</option>
+          <option value="Rare Disease">Rare Disease</option>
+          <option value="Multiple Organ">Multiple Organ</option>
+          <option value="Mental Disorders">Mental Disorders</option>
+          <option value="Alzheimer's disease">Alzheimer's disease</option>
+          <option value="Others">Others</option>
+        
+  </select>
+
+
+
+
+
+
+
+    <div>
+        <textarea name="aboutwhatpbm" class="aboutwhatpbm" cols="40" rows="5" required>About for the problem</textarea>
+
+
+    </div>
+
+      <input type="file" name="uploadimage" id="uploadimg"  required >
+      <label for="uploadimg" class="uploadimg">Upload your image </label>
+    
+    
+    
+
+
+    <div class="form-btn" >
+            
+        <button class="btn" type="submit" >Submit</button>
+
+
+    </div>
+
+</div>
+  </form>
+
+
+</section>
+    </body>
+    </html>
