@@ -1,214 +1,289 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-
-
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-variant: small-caps;
 }
-:root{
-   /* background color  */
-   --bg-color-w:#ffffff;
-   --bg-color-b:#000000;
-   /* text color */
-   --text-color-b:#000000;
-   --text-color-w:#ffffff;
-   --text-color1:#cdb4db;
-   --text-color2:#ffc8dd;
-   --text-color3:#ffafcc;
-   --text-color4:#bde0fe;
-   --text-color5:#a2d2ff;
-   --text-color6:#616163;
-   --text-color6:#456990;
-   --text-color6:#703d57;
-   --text-color6:#131200;
-   --text-color6:#45062e;
-
+a {
+  text-decoration: none;
 }
 
+:root {
+  /* background color  */
+  --bg-color-w: #ffffff;
+  --bg-color-b: #000000;
+  /* text color */
+  --text-color-b: #000000;
+  --text-color-w: #ffffff;
+  --text-color1: #cdb4db;
+  --text-color2: #ffc8dd;
+  --text-color3: #ffafcc;
+  --text-color4: #bde0fe;
+  --text-color5: #a2d2ff;
+  --text-color6: #616163;
+  --text-color6: #456990;
+  --text-color6: #703d57;
+  --text-color6: #131200;
+  --text-color6: #45062e;
+}
 
-body{
-  background-color:#ffffff;
+body {
+  background-image: url(../image/bgimage/c4.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
+}
 
-   }
-   .header{
+                                      /****************************\
+                                            # Navigation Bar
+                                      \****************************/
+/* Header Logo */
+.header-logo{
+  font-size:18px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+  /* Navigation Bar */
+  .navbar-container{
       display: flex;
-      justify-content: center;
+      justify-content:space-between;
       align-items: center;
-      position: fixed;
-      left: 0%;
-      right: 0%;
-      padding: 15px;
-      background-color: rgba(1, 1, 1, 0.1);
-      z-index: 1;
-
-    }
-    .navbar a{ 
-          margin: 0px 30px;
-           padding: 10px;
-          border-radius: 3px;
-          font-weight:bold;
-          color:#203760;
-  
-         
-      
-    }
-    .navbar a:hover{
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-      transition: 0.5s;
-  
-
-  
-      }
-  
-     .logo{
-      position: absolute;
-      left: 20px;
-      font-size: 20px;
+      padding:15px;
       font-weight: bold;
-      color:#203760;
-     
-   }
+      background-color: rgba(1, 1, 1, 0.200);
+    }
+  /* Naigation menu */
+    li{
+      list-style-type: none;
+    }
+    .header-links{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 50vw;
+      margin-right:100px;
+    }
   
-  
-     #boxhead{
-      height: 48px;
-   }
+  .header-links a{
+    color:#4064a1 ;
+  }
 
-/*background image */
+ 
+.header-links a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  transition: all 300ms ease-in-out;
+} 
 
 
-.bgimage{
-position: absolute;
-top: 15%;
-left: 55%;
-right: 0%;
-width: 500px;
-height: 500px;
-z-index: 0;
+                                    /*******************\
+                                          #section - 1
+                                    \*******************/
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
 
-
-/* section 1  contact form ************************************************************************************** */
-
-section{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-.form-box{
-   margin-top: 20px;
-   margin-left: 35px;
-  width: 600px;
-  border-radius: 20px;
+.form-title {
   text-align: center;
-   /* box-shadow: 17px 25px 10px  rgba(0, 0, 0,0.6); */
- 
+  padding: 10px;
+  color:#ff3442;
 }
 
-.form-title{
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color: black;
-   text-align: center;
-   
-  
-}
-.Email,.Firstname,.Mobileno,.Address{
-   margin: 13px;
-   padding: 20px;
-   width: 35vw;
-   height: 1px;
-   border: none;
-   background-color: rgba(0, 0, 0, 0.05);
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: medium;
-   border-radius: 3px;
-}
-
-.State,.City{
- margin: 13px;
- padding: 12px;
- border: none;
- width: 15vw;
- font-size: medium;
- border-radius: 5px;
- background-color: rgba(0, 0, 0, 0.05);
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-.City{
-margin-left: 48px;
-}
-.Cause{
- margin: 13px;
- border: none;
- padding: 12px;
- width: 35vw;
- font-size: medium;
- border-radius: 5px;
- background-color: rgba(0, 0, 0, 0.05);
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.form-container {
+  text-align: center;
+  padding: 15px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  margin: 30px;
 
 }
 
-.aboutwhatpbm{
- margin: 13px;
- margin-bottom: 20px;
- border-radius: 3px;
- border: none;
- resize: none;
- font-size: 15px;
- background-color: white;
- padding: 20px;
- width: 35vw;
- height: 100px;
- background-color: rgba(0, 0, 0, 0.05);
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-
-}
-input[type="file"]{
-
-  display: none;
-}
-
-.uploadimg{
-  margin: 15px;
-  border: none;
-  padding: 12px;
-  font-size: medium;
-  border-radius: 5px;
-  color: black;
+.Email,
+.Firstname,
+.Mobileno,
+.Address,
+.State,
+.City,
+.Cause,
+.aboutwhatpbm {
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.05);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  resize: none;
+  width: 250px;
+  color: white;
+
 
 }
 
+input::placeholder {
+  color: black;
+  font-weight: 400;
+}
+
+input:focus {
+  outline: 1px solid white;
+
+}
+
+.aboutwhatpbm:focus {
+  outline: 1px solid white;
+}
+
+.Cause,
+.aboutwhatpbm {
+  width: 100%;
+
+}
+
+.aboutwhatpbm {
+  margin-bottom: 20px;
+}
+
+.State,
+.City,
+.Cause {
+  color: black;
+}
 
 
-.btn{
-   font-family: cursive;
-   padding: 10px;
-   border: none;
-   width: 35vw;
-   margin-left: 15px;
-   background-color:#017aee;
-   color: white;
-   font-weight: bold;
-   font-size: 14px;
-   margin-top: 20px;
-   margin-bottom: 50px;
+input[type="file"] {
+  display: none;
 
+}
+
+.uploadimg {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 10px;
+
+}
+
+.uploadimg:hover {
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #017aee;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #c71d28;
+  transition: 0.5s;
+  color: white;
+}
+
+                                      /****************************\
+                                              @media 650px
+                                      \****************************/
+ @media all and (max-width:650px){
+  
+  .navbar-container{
+    justify-content: space-between;
+  }
+  .header-links{
+    display: none;
+    position: absolute;   
+    flex-direction: column;
+    top:80px;
+    width:calc(100%) ;
+    left:50%;
+    padding: 20px;
+    transform: translateX(-50%);
+    gap:10px;
+    width:80%;
+    transition: all 300ms ease-in-out;
+    border-radius:10px;
+    background-color:whitesmoke;
+  }
+  .header-showmenu{
+    display:flex;
+    transition: 0.5s; 
+   }  
  
-}
-.btn:hover{
-    background-color:#75e6a3 ;
-    transition: 0.5s;
-    color: black;
+  .header-links a:hover{
+    transition: color 200ms ease-in-out;
+    color:#ff3442;
+  }
+
+
+  
+/* Hamburger Menu */
+.hmenu{
+  display:block;
+  width:20px;
+  height:3px;
+  background-color:white;
+  border-radius:10px;
+  margin-bottom:3px;
+  transition: all 300ms ease-in-out;
+  transform-origin: 2px 2px; 
+  cursor: pointer;
+ }
+ 
+
+ /* Animation in Hamburger menu */
+ 
+ .Ahmenu :nth-child(1){
+   background-color: white;
+  transform: rotate(45deg);
+ 
+ }
+ 
+ .Ahmenu :nth-child(2){
+   opacity:0;
+ }
+ 
+ .Ahmenu :nth-child(3){
+   background-color: white;
+   transform: rotate(-45deg);
+ 
+ }
+
 }
 
+
+@media all and (max-width:613px) {
+
+  body {
+    background-position-x: -100px;
+  }
+
+  .Cause,
+  .aboutwhatpbm {
+    width: 250px;
+  }
+
+}
+
+@media all and (max-width:320px) {
+  .form-container {
+    margin-top: 20px;
+  }
+
+
+}
