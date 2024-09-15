@@ -88,7 +88,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 .form-title {
@@ -136,8 +135,14 @@ input:focus {
   outline: 1px solid white;
 
 }
+.aboutwhatpbm {
+  margin-bottom: 20px;
+}
 
-.aboutwhatpbm:focus {
+.aboutwhatpbm:focus,
+.Cause:focus,
+.City:focus,
+.State:focus{
   outline: 1px solid white;
 }
 
@@ -147,9 +152,6 @@ input:focus {
 
 }
 
-.aboutwhatpbm {
-  margin-bottom: 20px;
-}
 
 .State,
 .City,

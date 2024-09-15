@@ -94,11 +94,11 @@ body {
 .main-title{
   margin-top:50px;
   text-align: center;
-  font-size: 35px;
+  font-size:2.4rem;
   background:linear-gradient(20deg,#4064a1 50%,white);
   background-clip:text;
   color: transparent;
-} 
+}  
 
 .main-container{
   display:flex;
@@ -151,7 +151,7 @@ body {
   border-radius:8px;
 
 }
-/* 
+
 @keyframes animate {
 
   0%,
@@ -171,7 +171,7 @@ body {
 
   60% {}
   
-} */
+} 
 
 .profile-card__button--container{
   text-align: center;
