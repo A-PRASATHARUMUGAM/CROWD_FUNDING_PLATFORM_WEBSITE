@@ -7,33 +7,9 @@
   font-variant: small-caps;
 }
 
-html{
-  scroll-behavior: smooth;
-  scroll-snap-type: mandatory;
-}
-:root {
-  /* background color  */
-  --bg-color-w: #ffffff;
-  --bg-color-b: #000000;
-  /* text color */
-  --text-color-b: #000000;
-  --text-color-w: #ffffff;
-  --text-color1: #cdb4db;
-  --text-color2: #ffc8dd;
-  --text-color3: #ffafcc;
-  --text-color4: #bde0fe;
-  --text-color5: #a2d2ff;
-  --text-color6: #616163;
-  --text-color6: #456990;
-  --text-color6: #703d57;
-  --text-color6: #131200;
-  --text-color6: #45062e;
-
-}
-
 
 body {
-  background-image:url(../image/bgimage/c3.jpg);
+  background-image:url(../image/bgimage/c3-min.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position:center;
@@ -50,8 +26,29 @@ body {
 .header-logo{
   font-size:18px;
   font-weight: bold;
-  color: #203760;
+  color:#4064a1; 
 }
+
+.header-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50vw;
+  margin-right:100px;
+}
+
+.header-links a{
+color:white ;
+}
+
+
+ 
+.header-links a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  transition: all 300ms ease-in-out;
+} 
+
 
   /* Navigation Bar */
   .navbar-container{
@@ -66,27 +63,6 @@ body {
     li{
       list-style-type: none;
     }
-    .header-links{
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      width: 50vw;
-      margin-right:100px;
-    }
-  
-  .header-links a{
-    color:#4064a1 ;
-  }
-
- 
-.header-links a:hover{
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  transition: all 300ms ease-in-out;
-} 
-
-
-
 
                                     /*******************\
                                           #section - 1
@@ -224,7 +200,9 @@ body {
     display:flex;
     transition: 0.5s; 
    }  
- 
+ .header-links a{
+  color: #4064a1;
+ }
   .header-links a:hover{
     transition: color 200ms ease-in-out;
     color:rgb(25, 198, 255);

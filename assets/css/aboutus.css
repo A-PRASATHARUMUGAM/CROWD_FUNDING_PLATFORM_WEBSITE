@@ -10,7 +10,7 @@
 
 
 body {
-  background-image: url(../image/bgimage/c2.jpg);
+  background-image: url(../image/bgimage/c2-min.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -48,7 +48,7 @@ body {
     }
   
   .header-links a{
-    color:#4064a1 ;
+    color:whitesmoke ;
   }
 
  
@@ -123,7 +123,9 @@ body {
     display:flex;
     transition: 0.5s; 
    }  
- 
+ .header-links a{
+  color: #eb0059;
+ }
   .header-links a:hover{
     transition: color 200ms ease-in-out;
     color:rgb(255, 136, 154);
