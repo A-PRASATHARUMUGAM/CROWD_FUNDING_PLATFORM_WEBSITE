@@ -1,1 +1,62 @@
-button,input{padding:10px}*{margin:0;padding:0;box-sizing:border-box;font-family:'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif}body{background-color:#96dfd4;font-size:16px}.main-container{display:flex;flex-direction:column;justify-content:center;align-items:center;margin-top:55px}.main-title{padding:20px;font-size:1.5rem;color:#000}.form-container{border-radius:10px;background-color:#ffd7d1;text-align:center;max-width:500px;min-width:50vw}input{margin:20px;background-color:rgba(255,255,255,.5);border-radius:4px;border:none;width:80%}button{margin:15px;border-radius:8px;border:none;font-weight:700}button:hover{color:#fff;background-color:#000;transition:.5s}@media all and (max-width:650px){.main-title{font-size:1rem}}
+*{ 
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+body{
+background-color: #96dfd4;
+font-size: 16px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:55px;
+}
+
+.main-title{
+    padding: 20px;
+    font-size: 1.5rem;
+    color: black;
+}
+.form-container{
+    border-radius:10px;
+    background-color: rgb(255, 215, 209,10);
+    text-align: center;
+    max-width: 500px;
+    min-width: 50vw;
+  
+}
+input{
+    margin:20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:4px;
+    border: none;
+    width:80%;
+
+}
+button{
+    margin:15px;
+    padding: 10px;
+    border-radius:8px;
+    border: none;
+    font-weight: bold;
+
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+    
+
+}
+@media all and (max-width:650px){
+    .main-title{
+        font-size: 1rem;
+    }
+}

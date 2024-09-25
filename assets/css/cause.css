@@ -1,1 +1,280 @@
-*,a{text-decoration:none}*{margin:0;padding:0;box-sizing:border-box;font-family:"Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;font-variant:small-caps}body{background-image:url(../image/bgimage/c4-min.jpg);background-attachment:fixed;background-repeat:no-repeat;background-size:cover;background-position:center}.header-logo{font-size:18px;font-weight:700;color:#fff}.navbar-container{display:flex;justify-content:space-between;align-items:center;padding:15px;font-weight:700;background-color:rgba(1,1,1,.2)}li{list-style-type:none}.header-links{display:flex;align-items:center;justify-content:space-evenly;width:50vw;margin-right:100px}.header-links a{color:#fff}.header-links a:hover{text-decoration:underline;text-decoration-thickness:3px;transition:.3s ease-in-out}.main-container{display:flex;justify-content:center;align-items:center;margin-top:20px}.form-title{text-align:center;padding:10px;color:#ff3442}.form-container{text-align:center;padding:15px;border:2px solid #fff;background-color:rgba(255,255,255,.25);border-radius:10px;margin:30px}.Address,.Cause,.City,.Email,.Firstname,.Mobileno,.State,.aboutwhatpbm{margin:10px 0;padding:10px;border-radius:10px;background-color:rgba(0,0,0,.05);border:none;resize:none;width:250px;color:#fff}input::placeholder{color:#000;font-weight:400}.Cause:focus,.City:focus,.State:focus,.aboutwhatpbm:focus,input:focus{outline:white solid 1px}.aboutwhatpbm{margin-bottom:20px}.Cause,.aboutwhatpbm{width:100%}.Cause,.City,.State{color:#000}.btn,.btn:hover,.uploadimg:hover{transition:.5s;color:#fff}input[type=file]{display:none}.uploadimg{background-color:rgba(0,0,0,.05);border:none;border-radius:5px;font-size:medium;padding:10px}.uploadimg:hover{cursor:pointer}.btn{margin-top:20px;padding:10px;font-size:14px;border:none;background-color:#017aee;font-weight:700;border-radius:10px}.btn:hover{background-color:#c71d28}@media all and (max-width:650px){.navbar-container{justify-content:space-between}.header-links{display:none;position:absolute;flex-direction:column;top:80px;left:50%;padding:20px;transform:translateX(-50%);gap:10px;width:80%;transition:.3s ease-in-out;border-radius:10px;background-color:rgba(252,16,16,.4)}.header-showmenu{display:flex;transition:.5s}.header-links a:hover{transition:color .2s ease-in-out;color:#ff0}.hmenu{display:block;width:20px;height:3px;background-color:#fff;border-radius:10px;margin-bottom:3px;transition:.3s ease-in-out;transform-origin:2px 2px;cursor:pointer}.Ahmenu :first-child{background-color:#fff;transform:rotate(45deg)}.Ahmenu :nth-child(2){opacity:0}.Ahmenu :nth-child(3){background-color:#fff;transform:rotate(-45deg)}}@media all and (max-width:613px){body{background-position-x:-100px}.Cause,.aboutwhatpbm{width:250px}}@media all and (max-width:320px){.form-container{margin-top:20px}}
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-variant: small-caps;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../image/bgimage/c4-min.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+                                      /****************************\
+                                            # Navigation Bar
+                                      \****************************/
+/* Header Logo */
+.header{
+  position: fixed;
+  left: 0;
+  right:0;
+}
+.header-logo{
+  font-size:18px;
+  font-weight: bold;
+  color: white;
+}
+
+  /* Navigation Bar */
+  .navbar-container{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding:15px;
+      font-weight: bold;
+      background-color: rgba(1, 1, 1, 0.200);
+    }
+  /* Naigation menu */
+    li{
+      list-style-type: none;
+    }
+    .header-links{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 50vw;
+      margin-right:100px;
+    }
+  
+  .header-links a{
+    color:white ;
+  }
+
+ 
+.header-links a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  transition: all 300ms ease-in-out;
+} 
+
+
+                                    /*******************\
+                                          #section - 1
+                                    \*******************/
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  margin-top:60px;
+}
+.form-title {
+  text-align: center;
+  padding: 10px;
+  color:#ff3442;
+}
+
+.form-box {
+  text-align: center;
+  padding: 15px;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  margin:30px;
+  
+}
+
+.Email,
+.Firstname,
+.Mobileno,
+.Address,
+.State,
+.City,
+.Cause,
+.aboutwhatpbm {
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  resize: none;
+  width: 250px;
+  color: white;
+
+
+}
+
+input::placeholder {
+  color: black;
+  font-weight: 400;
+}
+
+input:focus {
+  outline: 1px solid white;
+
+}
+.aboutwhatpbm {
+  margin-bottom: 20px;
+}
+
+.aboutwhatpbm:focus,
+.Cause:focus,
+.City:focus,
+.State:focus{
+  outline: 1px solid white;
+}
+
+.Cause,
+.aboutwhatpbm {
+  width: 100%;
+
+}
+
+
+.State,
+.City,
+.Cause {
+  color: black;
+}
+
+
+input[type="file"] {
+  display: none;
+
+}
+
+.uploadimg {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  padding: 10px;
+
+}
+
+.uploadimg:hover {
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #017aee;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #c71d28;
+  transition: 0.5s;
+  color: white;
+}
+
+                                      /****************************\
+                                              @media 650px
+                                      \****************************/
+ @media all and (max-width:650px){
+  
+  .navbar-container{
+    justify-content: space-between;
+  }
+  .header-links{
+    display: none;
+    position: absolute;   
+    flex-direction: column;
+    top:80px;
+    width:calc(100%) ;
+    left:50%;
+    padding: 20px;
+    transform: translateX(-50%);
+    gap:10px;
+    width:80%;
+    transition: all 300ms ease-in-out;
+    border-radius:10px;
+    background-color:rgba(252, 16, 16, 0.400);
+  }
+  .header-showmenu{
+    display:flex;
+    transition: 0.5s; 
+   }  
+ 
+  .header-links a:hover{
+    transition: color 200ms ease-in-out;
+    color:yellow;
+  }
+
+
+  
+/* Hamburger Menu */
+.hmenu{
+  display:block;
+  width:20px;
+  height:3px;
+  background-color:white;
+  border-radius:10px;
+  margin-bottom:3px;
+  transition: all 300ms ease-in-out;
+  transform-origin: 2px 2px; 
+  cursor: pointer;
+ }
+ 
+
+ /* Animation in Hamburger menu */
+ 
+ .Ahmenu :nth-child(1){
+   background-color: white;
+  transform: rotate(45deg);
+ 
+ }
+ 
+ .Ahmenu :nth-child(2){
+   opacity:0;
+ }
+ 
+ .Ahmenu :nth-child(3){
+   background-color: white;
+   transform: rotate(-45deg);
+ 
+ }
+
+}
+
+
+@media all and (max-width:613px) {
+
+  body {
+    background-position-x: -100px;
+  }
+
+  .Cause,
+  .aboutwhatpbm {
+    width: 250px;
+  }
+
+}
+
+@media all and (max-width:320px) {
+  .form-box {
+    margin-top: 20px;
+  }
+
+
+}
